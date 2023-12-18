@@ -1,0 +1,35 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+numpy = "*"
+matplotlib = "*"
+pandas = "*"
+scipy = "*"
+tqdm = "*"
+scikit-image = "*"
+pydicom = "*"
+dipy = "*"
+nibabel = "*"
+nipype = "*"
+joblib = "*"
+lmfit = "*"
+wxpython = "*"
+simpleitk="*"
+dicom2nifti = "*"
+seaborn = "*"
+multiprocess = "*"
+
+torch = "*"
+torchvision = "*"
+openpyxl = "*"
+
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+python_full_version = "3.8.2"
